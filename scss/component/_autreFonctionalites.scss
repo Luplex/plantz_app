@@ -1,158 +1,179 @@
-.autreFonctionalite{
+.autreFonctionalite {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-    h2{
+
+    h2 {
         margin-bottom: 60px;
     }
-    .containerToggleFunction{
+
+    .containerToggleFunction {
         display: flex;
         padding: 16px;
         background-color: $blanc;
         box-shadow: $ombre;
         border-radius: 55px;
         height: 495px;
-     .Function{
-        width: 480px;
-         .BoutonFunction{
-            padding: 15px 132px;
-            background-color: $liteGray;
-            border-radius: 40px;
-            margin-bottom: 12px;
-            cursor: pointer; 
-         }
-         .contentTextFunctionNone{
-            opacity: 0;
-            content-visibility: hidden;
-            transition: all 0.2s ease-out;
-        } 
-        .contentTextFunction{
-            padding:40px 0px;
-            opacity: 1;
-            content-visibility: visible;
-            display: flex !important;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            border: 2px solid $liteGray;
-            border-radius: 40px;
-            transition: all 0.3s ease-out;
-            margin: 12px 0;
 
-            h3{
-                margin-bottom: 28px;
+        .Function {
+            width: 480px;
+
+            .BoutonFunction {
+                padding: 15px 132px;
+                background-color: $liteGray;
+                border-radius: 40px;
+                margin-bottom: 12px;
+                cursor: pointer;
             }
-            p{
-                // margin-bottom: 42px;
-                width: 85%;
-            }  
-        }
-        .contentTextFunctionOther{
-            display: none;
+
+            .contentTextFunctionNone {
+                opacity: 0;
+                content-visibility: hidden;
+                transition: all 0.2s ease-out;
+            }
+
+            .contentTextFunction {
+                padding: 40px 0px;
+                opacity: 1;
+                content-visibility: visible;
+                display: flex !important;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid $liteGray;
+                border-radius: 40px;
+                transition: all 0.3s ease-out;
+                margin: 12px 0;
+
+                h3 {
+                    margin-bottom: 28px;
+                }
+
+                p {
+                    width: 85%;
+                }
+            }
+
+            .contentTextFunctionOther {
+                display: none;
+            }
+
+            .ContentSuiviEtEntretien {
+                .button {
+                    background-color: $jaune;
+                }
+            }
+
+            .ContentMonJardin {
+                .button {
+                    background-color: $orange;
+                }
+            }
+
+            .ContentDrPlantz {
+                .button {
+                    background-color: $vert;
+                }
+            }
+
+            .ContentAgentSpécialise {
+                .button {
+                    background-color: $marron;
+                }
+            }
         }
 
-        .ContentSuiviEtEntretien{
-            .button{
+        .imgFunction {
+            width: 770px;
+            position: relative;
+            margin-left: 16px;
+
+            .imgContainerFunctionNone {
+                opacity: 0;
+                content-visibility: hidden;
+            }
+
+            .imgContainerFunction {
+                opacity: 1;
+                content-visibility: visible;
+                width: 100%;
+                height: 492px;
+                display: flex !important;
+                justify-content: center;
+                border: 2px solid #F1F1F1;
+                border-radius: 40px;
+                overflow: hidden;
+
+            }
+
+            .contentImgFunctionOther {
+                display: none;
+            }
+
+            .imgContainerSuiviEtEntretien {
                 background-color: $jaune;
             }
-        }
-        .ContentMonJardin{
-            .button{
+
+            .imgContainerMonJardin {
                 background-color: $orange;
             }
-        }
-        .ContentDrPlantz{
-            .button{
+
+            .imgContainerDrPlantz {
                 background-color: $vert;
             }
-        }
-        .ContentAgentSpécialise{
-            .button{
+
+            .imgContainerAgentSpécialise {
                 background-color: $marron;
             }
         }
-      }
-      .imgFunction{
-         width: 770px;
-         position: relative;
-         margin-left: 16px;
-         .imgContainerFunctionNone{
-            opacity: 0;
-            content-visibility: hidden;
-            // transition: all 0.2s ease-out;
-         }
-         .imgContainerFunction{
-            opacity: 1;
-            content-visibility: visible;
-            // transition: all 0.2s ease-out;
-            width: 100%;
-            height: 492px;
-            display: flex !important;
-            justify-content: center;
-            border: 2px solid #F1F1F1;
-            border-radius: 40px;
-            overflow: hidden;
-           
-         }
-         .contentImgFunctionOther{
-            display: none;
-        }
-
-        .imgContainerSuiviEtEntretien{
-            background-color: $jaune;
-        }
-        .imgContainerMonJardin{
-            background-color: $orange;
-        }
-        .imgContainerDrPlantz{
-            background-color: $vert;
-        }
-        .imgContainerAgentSpécialise{
-            background-color: $marron;
-        }
-      }  
     }
 }
 
 
 @media only screen and (max-width: 1373px) {
-    .autreFonctionalite{
-      .containerToggleFunction{
-        max-width: 80%;
-        height: fit-content;
-      }
-      .imgFunction{
-        margin-left: 0 !important;
-        .imgContainerFunction{
-            height: 100% !important;
+    .autreFonctionalite {
+        .containerToggleFunction {
+            max-width: 80%;
+            height: fit-content;
         }
-      }
+
+        .imgFunction {
+            margin-left: 0 !important;
+
+            .imgContainerFunction {
+                height: 100% !important;
+            }
+        }
     }
 }
 
 @media only screen and (max-width: 1103px) {
-    .autreFonctionalite{
-      .containerToggleFunction{
-        flex-direction: column-reverse;
-        .imgFunction{
-            width: initial !important;
-            margin-left: 0 !important;
-            margin-bottom: 15px;
-            .imgContainerFunction{
-                img{
-                    margin: 0 15px;
-                    width: 35vh;
+    .autreFonctionalite {
+        .containerToggleFunction {
+            flex-direction: column-reverse;
+
+            .imgFunction {
+                width: initial !important;
+                margin-left: 0 !important;
+                margin-bottom: 15px;
+
+                .imgContainerFunction {
+                    img {
+                        margin: 0 15px;
+                        width: 35vh;
+                    }
+                }
+            }
+
+            .Function {
+                width: initial !important;
+
+                .BoutonFunction {
+                    padding: 15px 0px;
                 }
             }
         }
-        .Function{
-            width: initial !important;
-            .BoutonFunction{
-                padding: 15px 0px;
-            }
-        }
-      }
-      
+
     }
 }

@@ -1,31 +1,33 @@
-.notification{
+.notification {
     display: flex;
     align-items: center;
-    
-        position: absolute;
-        padding: 17px;
-        border: 2px solid #000;
-        border-radius: 17px;
-        background-color: #fff;
-        box-shadow: 6px 6px 0 0 #000;
-   
-    img{
-        margin-right: 10px; 
+
+    position: absolute;
+    padding: 17px;
+    border: 2px solid #000;
+    border-radius: 17px;
+    background-color: #fff;
+    box-shadow: 6px 6px 0 0 #000;
+
+    img {
+        margin-right: 10px;
     }
-    .colortLvlUp{
-        color:$jaune;
+
+    .colortLvlUp {
+        color: $jaune;
     }
-    .colortGraine{
+
+    .colortGraine {
         color: $vert;
     }
 }
-.notLevel{
+
+.notLevel {
     top: 43px;
     right: 300px;
 }
-.notBadge{
+
+.notBadge {
     top: 193px;
     right: 300px;
 }
-
-

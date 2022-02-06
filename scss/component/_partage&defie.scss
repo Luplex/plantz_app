@@ -1,43 +1,47 @@
-.gamification{
-    .GamificationDetailContent{
-        .partage{
+.gamification {
+    .GamificationDetailContent {
+        .partage {
             @extend %gamificationDetailStyle;
             margin: 24px 0;
 
-            h3{
+            h3 {
                 margin-top: 70px;
-                // width: 300px;
-                display: inline-block;
-            }
-            .containerNotification{
                 display: inline-block;
             }
 
-            .imgBadgeXp{
+            .containerNotification {
+                display: inline-block;
+            }
+
+            .imgBadgeXp {
                 max-width: 100%;
                 margin-top: -150px;
             }
 
-            div{
-                .classement{
+            div {
+                .classement {
                     position: absolute;
                     bottom: 0;
                 }
-                .positionPersonnagePartage{
+
+                .positionPersonnagePartage {
                     position: absolute;
                     bottom: 0;
                     right: 170px;
                 }
-                .notFriendLevelUp{
+
+                .notFriendLevelUp {
                     top: 68px;
                     left: 300px;
                 }
-                .notPartageJardin{
+
+                .notPartageJardin {
                     bottom: 155px;
                     right: 300px;
                 }
             }
-            h3{
+
+            h3 {
                 position: absolute;
                 right: 65px;
                 top: 32px;
@@ -47,85 +51,98 @@
 }
 
 @media only screen and (max-width: 948px) {
-    .partage{
+    .partage {
         height: 567px !important;
-        h3{
-            margin-top: 17px !important;
 
+        h3 {
+            margin-top: 17px !important;
         }
-        div{
-            .classement{
+
+        div {
+            .classement {
                 left: 0px;
-                max-width: 40%!important;
+                max-width: 40% !important;
             }
-            .notFriendLevelUp{
+
+            .notFriendLevelUp {
                 top: 183px !important;
                 left: 240px !important;
             }
-            
-            .notPartageJardin{
-                bottom: 155px!important;
-                right: 202px!important;
+
+            .notPartageJardin {
+                bottom: 155px !important;
+                right: 202px !important;
             }
-            .positionPersonnagePartage{
+
+            .positionPersonnagePartage {
                 right: 40px !important;
             }
         }
-       
+
     }
 }
 
 @media only screen and (max-width: 681px) {
-    .partage{
+    .partage {
         margin: 20px 30px !important;
         height: 835px !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: fit-content!important;
-        h3{
+        height: fit-content !important;
+
+        h3 {
             font-size: 30px !important;
             margin-left: 37px;
             position: inherit !important;
         }
-        div:nth-child(1),div:nth-child(2){
+
+        div:nth-child(1),
+        div:nth-child(2) {
             display: flex;
             align-items: center;
             justify-content: center;
-            img{
-                position: inherit !important;  
+
+            img {
+                position: inherit !important;
             }
-            .classement{
-                max-width: 60% !important;;
+
+            .classement {
+                max-width: 60% !important;
+                ;
             }
-            .notification{
+
+            .notification {
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
                 position: inherit;
             }
-            .notPartageJardin{
+
+            .notPartageJardin {
                 flex-wrap: wrap;
                 justify-content: center;
-                p{
+
+                p {
                     text-align: center;
                 }
             }
-            
+
         }
-        
+
     }
 
-    
+
 }
 
 @media only screen and (max-width: 475px) {
-    .partage{
+    .partage {
 
-            div:nth-child(1),div:nth-child(2){
-                flex-wrap: wrap-reverse;
-            }
+        div:nth-child(1),
+        div:nth-child(2) {
+            flex-wrap: wrap-reverse;
         }
-        
     }
+
+}

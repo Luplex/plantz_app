@@ -1,21 +1,20 @@
-.press{
+.press {
     @extend %fixedAlignementElement;
     margin: 129px 0;
-    div{
+
+    div {
         width: 50%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
 
     }
-    .pressSection{
+
+    .pressSection {
         margin-bottom: 50px;
     }
 
-    h2{
+    h2 {
         margin-bottom: 60px;
     }
 }
-
-
-

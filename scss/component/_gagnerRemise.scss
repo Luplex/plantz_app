@@ -1,26 +1,28 @@
-.gamification{
-    .GamificationDetailContent{
-        .GagnerRemise{
-            
+.gamification {
+    .GamificationDetailContent {
+        .GagnerRemise {
+
             @extend %gamificationDetailStyle;
-            // margin: 24px 0;
             display: flex;
 
-            h3{
+            h3 {
                 margin-top: 70px;
             }
-            .positionPersonnagePlanteArgent{
+
+            .positionPersonnagePlanteArgent {
                 position: absolute;
                 right: 60px;
                 bottom: 29px;
             }
-            .notGagnerRemise{
+
+            .notGagnerRemise {
                 top: 56px;
                 right: 350px;
             }
-            .notGagnerVightE{
+
+            .notGagnerVightE {
                 left: 355px;
-                bottom: 74px ;
+                bottom: 74px;
             }
         }
     }
@@ -28,21 +30,18 @@
 
 
 @media only screen and (max-width:945px) {
-    .gamification{
-        .GamificationDetailContent{
-            .GagnerRemise{
-                .notGagnerRemise{
+    .gamification {
+        .GamificationDetailContent {
+            .GagnerRemise {
+                .notGagnerRemise {
                     top: 305px;
                     right: 476px;
                 }
-                // .notGagnerVightE{
-                //     top: 305px;
-                //     right: 476px;
-                // }
+
                 .positionPersonnagePlanteArgent {
                     right: -36px;
                 }
-          
+
             }
         }
     }
@@ -50,34 +49,38 @@
 
 
 @media only screen and (max-width: 739px) {
-    .gamification{
-        .GamificationDetailContent{
-            .GagnerRemise{
+    .gamification {
+        .GamificationDetailContent {
+            .GagnerRemise {
                 flex-direction: column;
-                height: auto!important;
+                height: auto !important;
                 margin: 20px 30px !important;
-                h3{
+
+                h3 {
                     font-size: 30px !important;
                     margin-bottom: 40px;
-                    margin-top: 10px!important;
+                    margin-top: 10px !important;
                 }
-                .notGagnerVightE{
+
+                .notGagnerVightE {
                     justify-content: center;
-                    margin: 15px 0!important;
+                    margin: 15px 0 !important;
                 }
-                .notification{
-                    position: initial!important;
+
+                .notification {
+                    position: initial !important;
                     left: 0;
                     bottom: 0px;
-                    flex-wrap: wrap!important;
-                    justify-content: center!important;
+                    flex-wrap: wrap !important;
+                    justify-content: center !important;
                     width: fit-content;
                 }
-                img{
-                    position: initial!important;
+
+                img {
+                    position: initial !important;
                     max-width: 90%;
                 }
-          
+
             }
         }
     }

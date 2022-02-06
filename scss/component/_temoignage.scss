@@ -1,58 +1,64 @@
-
-.socialProof{
+.socialProof {
     @extend %fixedAlignementElement;
     margin-top: 135px;
-    h2{
-        margin-bottom:60px ;
+
+    h2 {
+        margin-bottom: 60px;
     }
-    article{
+
+    article {
         @extend %fixedAlignementElement;
         width: 100%;
-        .containerDesTemoignages{
+
+        .containerDesTemoignages {
             display: flex;
             margin-bottom: 152px;
             flex-wrap: wrap;
             justify-content: space-around;
             width: 100%;
 
-            .containerTemoignage{
+            .containerTemoignage {
                 display: flex;
                 flex-direction: column;
                 width: 320px;
                 padding: 32px;
                 background-color: $blanc;
-                box-shadow:$ombre;
+                box-shadow: $ombre;
                 border-radius: 40px;
-                // border: 1px solid $liteGray;
-                .profilTemoignage{
+                
+                .profilTemoignage {
                     display: flex;
                     margin-bottom: 25px;
-                    
-                    img{
+
+                    img {
                         margin-right: 16px;
                     }
-                    .nameProfile{
+
+                    .nameProfile {
                         display: flex;
                         flex-direction: column;
-                        justify-content: center; 
+                        justify-content: center;
                     }
                 }
-                
+
             }
         }
     }
-    .containerDesAvis{
+
+    .containerDesAvis {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        background-color:$liteVert;
+        background-color: $liteVert;
         padding-bottom: 40px;
         width: 100%;
-        div{
+
+        div {
             display: flex;
             align-items: center;
         }
-        div:nth-child(2){
+
+        div:nth-child(2) {
             margin: 0 50px;
         }
     }
@@ -60,11 +66,11 @@
 
 
 @media only screen and (max-width: 1146px) {
-  
-    .socialProof{
-        article{
-            .containerDesTemoignages{
-                .containerTemoignage:nth-child(3){
+
+    .socialProof {
+        article {
+            .containerDesTemoignages {
+                .containerTemoignage:nth-child(3) {
                     margin-top: 30px;
                 }
             }
@@ -73,15 +79,16 @@
 }
 
 @media only screen and (max-width: 760px) {
-  
-    .socialProof{
-        article{
-            .containerDesTemoignages{
-                .containerTemoignage:nth-child(3){
+
+    .socialProof {
+        article {
+            .containerDesTemoignages {
+                .containerTemoignage:nth-child(3) {
                     margin-top: 0px;
                 }
-                .containerTemoignage:nth-child(2){
-                    margin:10px 0;
+
+                .containerTemoignage:nth-child(2) {
+                    margin: 10px 0;
 
                 }
             }

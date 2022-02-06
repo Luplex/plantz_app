@@ -1,16 +1,15 @@
-.container_contentHero{
+.container_contentHero {
 
-    .content_video{
+    .content_video {
         position: relative;
         width: 40%;
         height: 75vh;
-        .videoContainer{
+
+        .videoContainer {
             margin-right: 26px;
             position: relative;
-            // background-image: url('../asset/hero/Mockup_video.svg');
-            // background-repeat: no-repeat;
-            // height: 100%;
-            div{
+
+            div {
                 position: absolute;
                 width: 268px;
                 height: 476px;
@@ -20,40 +19,42 @@
                 overflow: hidden;
             }
         }
-        
+
         .positionSmileyRire {
             top: -34px;
             left: -129px;
         }
+
         .positionSmileyMDR {
             top: 50px;
             right: -52px;
         }
-        .positionSmileyEtoile{
+
+        .positionSmileyEtoile {
             bottom: 0;
         }
-       
+
     }
 
 }
 
 @media only screen and (max-width:1074px) {
-    .content_video{
+    .content_video {
         width: 100% !important;
         align-items: center;
-        .videoContainer{
-            div{
-                position: initial!important;
+
+        .videoContainer {
+            div {
+                position: initial !important;
             }
         }
-        
-        .positionSmileyRire,.positionSmileyMDR,.positionSmileyEtoile{
+
+        .positionSmileyRire,
+        .positionSmileyMDR,
+        .positionSmileyEtoile {
             display: none;
         }
 
     }
-    
-    
-    
-     
+
 }
