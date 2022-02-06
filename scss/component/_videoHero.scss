@@ -1,0 +1,59 @@
+.container_contentHero{
+
+    .content_video{
+        position: relative;
+        width: 40%;
+        height: 75vh;
+        .videoContainer{
+            margin-right: 26px;
+            position: relative;
+            // background-image: url('../asset/hero/Mockup_video.svg');
+            // background-repeat: no-repeat;
+            // height: 100%;
+            div{
+                position: absolute;
+                width: 268px;
+                height: 476px;
+                top: 110px;
+                left: 50px;
+                border-radius: 24px;
+                overflow: hidden;
+            }
+        }
+        
+        .positionSmileyRire {
+            top: -34px;
+            left: -129px;
+        }
+        .positionSmileyMDR {
+            top: 50px;
+            right: -52px;
+        }
+        .positionSmileyEtoile{
+            bottom: 0;
+        }
+       
+    }
+
+}
+
+@media only screen and (max-width:1074px) {
+    .content_video{
+        width: 100% !important;
+        align-items: center;
+        .videoContainer{
+            div{
+                position: initial!important;
+            }
+        }
+        
+        .positionSmileyRire,.positionSmileyMDR,.positionSmileyEtoile{
+            display: none;
+        }
+
+    }
+    
+    
+    
+     
+}
