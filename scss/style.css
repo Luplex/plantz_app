@@ -353,7 +353,9 @@ body .button::after {
     align-items: center; }
     .content_video .videoContainer div {
       position: initial !important; }
-    .content_video .positionSmileyRire, .content_video .positionSmileyMDR, .content_video .positionSmileyEtoile {
+    .content_video .positionSmileyRire,
+    .content_video .positionSmileyMDR,
+    .content_video .positionSmileyEtoile {
       display: none; } }
 .scanne {
   display: flex;
@@ -440,12 +442,16 @@ body .button::after {
     bottom: 0; }
 
 @media only screen and (max-width: 1056px) {
-  .gamification .contentIntro2 .pictoPartage3d, .gamification .contentIntro2 .pictoGamificationTrophy, .gamification .contentIntro2 .pictoGamificationSmile {
+  .gamification .contentIntro2 .pictoPartage3d,
+  .gamification .contentIntro2 .pictoGamificationTrophy,
+  .gamification .contentIntro2 .pictoGamificationSmile {
     display: none; } }
 @media only screen and (max-width: 700px) {
   .gamification {
     padding-top: 12vh !important; }
-    .gamification article .pictoEtoile3D, .gamification article .pictoMessage3D, .gamification article .pictoNotification3D {
+    .gamification article .pictoEtoile3D,
+    .gamification article .pictoMessage3D,
+    .gamification article .pictoNotification3D {
       display: none !important; } }
 @media only screen and (max-width: 425px) {
   .gamification p {
@@ -601,26 +607,33 @@ body .button::after {
       font-size: 30px !important;
       margin-left: 37px;
       position: inherit !important; }
-    .partage div:nth-child(1), .partage div:nth-child(2) {
+    .partage div:nth-child(1),
+    .partage div:nth-child(2) {
       display: flex;
       align-items: center;
       justify-content: center; }
-      .partage div:nth-child(1) img, .partage div:nth-child(2) img {
+      .partage div:nth-child(1) img,
+      .partage div:nth-child(2) img {
         position: inherit !important; }
-      .partage div:nth-child(1) .classement, .partage div:nth-child(2) .classement {
+      .partage div:nth-child(1) .classement,
+      .partage div:nth-child(2) .classement {
         max-width: 60% !important; }
-      .partage div:nth-child(1) .notification, .partage div:nth-child(2) .notification {
+      .partage div:nth-child(1) .notification,
+      .partage div:nth-child(2) .notification {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         position: inherit; }
-      .partage div:nth-child(1) .notPartageJardin, .partage div:nth-child(2) .notPartageJardin {
+      .partage div:nth-child(1) .notPartageJardin,
+      .partage div:nth-child(2) .notPartageJardin {
         flex-wrap: wrap;
         justify-content: center; }
-        .partage div:nth-child(1) .notPartageJardin p, .partage div:nth-child(2) .notPartageJardin p {
+        .partage div:nth-child(1) .notPartageJardin p,
+        .partage div:nth-child(2) .notPartageJardin p {
           text-align: center; } }
 @media only screen and (max-width: 475px) {
-  .partage div:nth-child(1), .partage div:nth-child(2) {
+  .partage div:nth-child(1),
+  .partage div:nth-child(2) {
     flex-wrap: wrap-reverse; } }
 .gamification .GamificationDetailContent .GagnerRemise {
   display: flex; }
@@ -943,27 +956,43 @@ body .button::after {
     .valeur .valeurContainer .ValeurTiitre {
       opacity: 0.4;
       position: absolute; }
-      .valeur .valeurContainer .ValeurTiitre h2, .valeur .valeurContainer .ValeurTiitre p {
+      .valeur .valeurContainer .ValeurTiitre h2,
+      .valeur .valeurContainer .ValeurTiitre p {
         text-align: center; }
-    .valeur .valeurContainer .ValeurAmuser, .valeur .valeurContainer .ValeurPerseverer, .valeur .valeurContainer .ValeurPartager, .valeur .valeurContainer .ValeurInnover {
+    .valeur .valeurContainer .ValeurAmuser,
+    .valeur .valeurContainer .ValeurPerseverer,
+    .valeur .valeurContainer .ValeurPartager,
+    .valeur .valeurContainer .ValeurInnover {
       opacity: 0; }
-    .valeur .valeurContainer div:nth-child(2), .valeur .valeurContainer div:nth-child(3), .valeur .valeurContainer div:nth-child(4), .valeur .valeurContainer div:nth-child(5) {
+    .valeur .valeurContainer div:nth-child(2),
+    .valeur .valeurContainer div:nth-child(3),
+    .valeur .valeurContainer div:nth-child(4),
+    .valeur .valeurContainer div:nth-child(5) {
       height: 360px;
       width: 316px;
       display: flex;
       justify-content: center;
       position: absolute; }
-      .valeur .valeurContainer div:nth-child(2) div, .valeur .valeurContainer div:nth-child(3) div, .valeur .valeurContainer div:nth-child(4) div, .valeur .valeurContainer div:nth-child(5) div {
+      .valeur .valeurContainer div:nth-child(2) div,
+      .valeur .valeurContainer div:nth-child(3) div,
+      .valeur .valeurContainer div:nth-child(4) div,
+      .valeur .valeurContainer div:nth-child(5) div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 10px; }
-        .valeur .valeurContainer div:nth-child(2) div p, .valeur .valeurContainer div:nth-child(3) div p, .valeur .valeurContainer div:nth-child(4) div p, .valeur .valeurContainer div:nth-child(5) div p {
+        .valeur .valeurContainer div:nth-child(2) div p,
+        .valeur .valeurContainer div:nth-child(3) div p,
+        .valeur .valeurContainer div:nth-child(4) div p,
+        .valeur .valeurContainer div:nth-child(5) div p {
           padding: 8px 16px;
           background-color: #FFE9DE;
           border-radius: 12px; }
-        .valeur .valeurContainer div:nth-child(2) div img, .valeur .valeurContainer div:nth-child(3) div img, .valeur .valeurContainer div:nth-child(4) div img, .valeur .valeurContainer div:nth-child(5) div img {
+        .valeur .valeurContainer div:nth-child(2) div img,
+        .valeur .valeurContainer div:nth-child(3) div img,
+        .valeur .valeurContainer div:nth-child(4) div img,
+        .valeur .valeurContainer div:nth-child(5) div img {
           margin-bottom: 19px; }
     .valeur .valeurContainer div:nth-child(2) {
       background: url("../asset/Plantz_valeur/bg_amuser.svg");
@@ -1038,7 +1067,7 @@ body .button::after {
     width: 50%; }
     .bannerEndCta div:nth-child(1) img {
       width: 100%;
-      height: auto; }
+      height: 100%; }
   .bannerEndCta div:nth-child(2) {
     display: flex;
     flex-direction: column;
