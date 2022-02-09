@@ -20,11 +20,15 @@
             width: 480px;
 
             .BoutonFunction {
+                display: block;
                 padding: 15px 132px;
                 background-color: $liteGray;
                 border-radius: 40px;
                 margin-bottom: 12px;
                 cursor: pointer;
+            }
+            .BoutonFunctionActive{
+                display: none !important;
             }
 
             .contentTextFunctionNone {
@@ -34,14 +38,14 @@
             }
 
             .contentTextFunction {
-                padding: 40px 0px;
+                padding: 58px 0px;
                 opacity: 1;
                 content-visibility: visible;
                 display: flex !important;
                 justify-content: center;
                 flex-direction: column;
                 align-items: center;
-                border: 2px solid $liteGray;
+                border: 2px solid $orange;
                 border-radius: 40px;
                 transition: all 0.3s ease-out;
                 margin: 12px 0;
@@ -59,27 +63,32 @@
                 display: none;
             }
 
+            
             .ContentSuiviEtEntretien {
-                .button {
-                    background-color: $jaune;
+                border: 2px solid $jaune;
+                h3{
+                    color:$jaune;
                 }
             }
 
             .ContentMonJardin {
-                .button {
-                    background-color: $orange;
+                border: 2px solid $orange;
+                h3{
+                    color:$orange;
                 }
             }
 
             .ContentDrPlantz {
-                .button {
-                    background-color: $vert;
+                border: 2px solid $vert;
+                h3{
+                    color:$vert;
                 }
             }
 
             .ContentAgentSpécialise {
-                .button {
-                    background-color: $marron;
+                border: 2px solid $marron;
+                h3{
+                    color:$marron;
                 }
             }
         }
@@ -101,7 +110,6 @@
                 height: 492px;
                 display: flex !important;
                 justify-content: center;
-                border: 2px solid #F1F1F1;
                 border-radius: 40px;
                 overflow: hidden;
 

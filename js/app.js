@@ -38,19 +38,25 @@ function ToggleTab() {
   var clear = function () {
     var AllContent = document.querySelectorAll('.contentTextFunctionNone');
     var AllImg = document.querySelectorAll('.imgContainerFunctionNone');
+    var AllButton = document.querySelectorAll('.BoutonFunction');
+
 
     for (var i = 0; i < AllContent.length; i++) {
       AllContent[i].classList.remove('contentTextFunction');
-    }
-    for (var i = 0; i < AllImg.length; i++) {
       AllImg[i].classList.remove('imgContainerFunction');
+      AllButton[i].classList.remove('BoutonFunctionActive');
+      // e.currentTarget.classList.remove('BoutonFunctionActive');
     }
+    // for (var i = 0; i < AllImg.length; i++) {
+      
+    // }
   }
 
 
   var change = function (e) {
     clear();
     var id = e.currentTarget.getAttribute('data-tab');
+    e.currentTarget.classList.add('BoutonFunctionActive');
     document.getElementById(id).classList.add('contentTextFunction');
     document.querySelector('.' + id).classList.add('imgContainerFunction');
   }

@@ -792,24 +792,27 @@ body .button::after {
     .autreFonctionalite .containerToggleFunction .Function {
       width: 480px; }
       .autreFonctionalite .containerToggleFunction .Function .BoutonFunction {
+        display: block;
         padding: 15px 132px;
         background-color: #F1F1F1;
         border-radius: 40px;
         margin-bottom: 12px;
         cursor: pointer; }
+      .autreFonctionalite .containerToggleFunction .Function .BoutonFunctionActive {
+        display: none !important; }
       .autreFonctionalite .containerToggleFunction .Function .contentTextFunctionNone {
         opacity: 0;
         content-visibility: hidden;
         transition: all 0.2s ease-out; }
       .autreFonctionalite .containerToggleFunction .Function .contentTextFunction {
-        padding: 40px 0px;
+        padding: 58px 0px;
         opacity: 1;
         content-visibility: visible;
         display: flex !important;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        border: 2px solid #F1F1F1;
+        border: 2px solid #FF925D;
         border-radius: 40px;
         transition: all 0.3s ease-out;
         margin: 12px 0; }
@@ -819,14 +822,22 @@ body .button::after {
           width: 85%; }
       .autreFonctionalite .containerToggleFunction .Function .contentTextFunctionOther {
         display: none; }
-      .autreFonctionalite .containerToggleFunction .Function .ContentSuiviEtEntretien .button {
-        background-color: #FFC569; }
-      .autreFonctionalite .containerToggleFunction .Function .ContentMonJardin .button {
-        background-color: #FF925D; }
-      .autreFonctionalite .containerToggleFunction .Function .ContentDrPlantz .button {
-        background-color: #52B375; }
-      .autreFonctionalite .containerToggleFunction .Function .ContentAgentSpécialise .button {
-        background-color: #806354; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentSuiviEtEntretien {
+        border: 2px solid #FFC569; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentSuiviEtEntretien h3 {
+          color: #FFC569; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentMonJardin {
+        border: 2px solid #FF925D; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentMonJardin h3 {
+          color: #FF925D; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentDrPlantz {
+        border: 2px solid #52B375; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentDrPlantz h3 {
+          color: #52B375; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentAgentSpécialise {
+        border: 2px solid #806354; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentAgentSpécialise h3 {
+          color: #806354; }
     .autreFonctionalite .containerToggleFunction .imgFunction {
       width: 770px;
       position: relative;
@@ -841,7 +852,6 @@ body .button::after {
         height: 492px;
         display: flex !important;
         justify-content: center;
-        border: 2px solid #F1F1F1;
         border-radius: 40px;
         overflow: hidden; }
       .autreFonctionalite .containerToggleFunction .imgFunction .contentImgFunctionOther {
