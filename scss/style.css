@@ -355,6 +355,9 @@ body .button::after {
     .content_video .positionSmileyMDR,
     .content_video .positionSmileyEtoile {
       display: none; } }
+@media only screen and (max-width: 576px) {
+  .content_video {
+    display: none !important; } }
 .scanne {
   display: flex;
   flex-direction: column;
