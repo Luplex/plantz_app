@@ -390,7 +390,7 @@ body .button::after {
   .scanne .png img {
     width: 100%; }
   .scanne #animation svg {
-    transform: scale(1.2); }
+    transform: scale(1.6); }
 
 @media only screen and (max-width: 1400px) {
   .scanne {
