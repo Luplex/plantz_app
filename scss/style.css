@@ -387,6 +387,8 @@ body .button::after {
     z-index: 5; }
   .scanne .imgMainScan2 {
     display: none; }
+  .scanne .png img {
+    width: 100%; }
 
 @media only screen and (max-width: 1400px) {
   .scanne {

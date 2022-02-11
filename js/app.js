@@ -20,6 +20,20 @@ function CompatibilityNavigator() {
 
 CompatibilityNavigator();
 
+//Animation Scan Lottie
+LottieInteractivity.create({
+  player:'#lottie_scann',
+  mode:"scroll",
+      actions: [
+      {
+          visibility:[0, 1.0],
+          type: "seek",
+          frames: [0, 300],
+      },
+      ]
+  });
+
+
 /// TOOGLE TAB
 
 function ToggleTab() {
