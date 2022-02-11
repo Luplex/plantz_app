@@ -45,11 +45,16 @@
             width: 100%;
         }
     }
-    #animation{
-        svg{
-            transform: scale(1.6);
+    #lottie_scann{
+        #animation-container{
+            #animation{
+                svg{
+                    transform: scale(1.6);
+                }
+            }
         }
     }
+   
 }
 
 @media only screen and (max-width: 1400px) {
