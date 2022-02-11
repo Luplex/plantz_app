@@ -389,8 +389,9 @@ body .button::after {
     display: none; }
   .scanne .png img {
     width: 100%; }
-  .scanne #lottie_scann #animation-container #animation svg {
-    transform: scale(1.6); }
+
+#lottie_scann #animation-container #animation svg {
+  transform: scale(1.6); }
 
 @media only screen and (max-width: 1400px) {
   .scanne {
