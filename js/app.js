@@ -20,18 +20,18 @@ function CompatibilityNavigator() {
 
 CompatibilityNavigator();
 
-// //Animation Scan Lottie
-// LottieInteractivity.create({
-//   player:'#lottie_scann',
-//   mode:"scroll",
-//       actions: [
-//       {
-//           visibility:[0, 1.0],
-//           type: "seek",
-//           frames: [0, 500],
-//       },
-//       ]
-//   });
+//Animation Scan Lottie
+LottieInteractivity.create({
+  player:'#lottie_scann',
+  mode:"scroll",
+      actions: [
+      {
+          visibility:[0, 1.0],
+          type: "seek",
+          frames: [0, 500],
+      },
+      ]
+  });
 
 
 /// TOOGLE TAB
