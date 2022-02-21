@@ -1,6 +1,21 @@
 //Animation scrol element simple avec aos js
 AOS.init();
 
+//Animation Scan Lottie
+LottieInteractivity.create({
+  player:'#lottie_scann',
+  mode:"scroll",
+      actions: [
+      {
+          visibility:[0, 1.0],
+          type: "seek",
+          frames: [0, 500],
+      },
+      ]
+  });
+
+
+
 //Compatibility navigator for toggle
 function CompatibilityNavigator() {
   //Varaible qui pemet de diferencier de l'userAgent de chrome et de safari
@@ -20,18 +35,6 @@ function CompatibilityNavigator() {
 
 CompatibilityNavigator();
 
-//Animation Scan Lottie
-// LottieInteractivity.create({
-//   player:'#lottie_scann',
-//   mode:"scroll",
-//       actions: [
-//       {
-//           visibility:[0, 1.0],
-//           type: "seek",
-//           frames: [0, 500],
-//       },
-//       ]
-//   });
 
 
 /// TOOGLE TAB
