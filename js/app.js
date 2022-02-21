@@ -2,17 +2,17 @@
 AOS.init();
 
 //Animation Scan Lottie
-LottieInteractivity.create({
-  player:'#lottie_scann',
-  mode:"scroll",
-      actions: [
-      {
-          visibility:[0, 1.0],
-          type: "seek",
-          frames: [0, 500],
-      },
-      ]
-  });
+// LottieInteractivity.create({
+//   player:'#lottie_scann',
+//   mode:"scroll",
+//       actions: [
+//       {
+//           visibility:[0, 1.0],
+//           type: "seek",
+//           frames: [0, 500],
+//       },
+//       ]
+//   });
 
 
 
