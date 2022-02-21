@@ -362,8 +362,9 @@ body .button::after {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  position: relative;
-  height: 160vh; }
+  position: sticky;
+  top: -406px;
+  height: 260vh; }
   .scanne .imgBackgroundScan {
     width: 60%;
     margin: auto;

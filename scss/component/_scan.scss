@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: relative;
-    height: 160vh;
+    position: sticky;
+    top: -406px;
+    height: 260vh;
 
     .imgBackgroundScan {
         width: 60%;
@@ -16,7 +17,6 @@
         bottom: -50vh !important;
         width: 100%;
         z-index: 2;
-
     }
 
     .ScaleImgBackgroundScan {
