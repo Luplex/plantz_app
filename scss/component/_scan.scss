@@ -5,6 +5,11 @@
     position: sticky;
     top: -406px;
     height: 260vh;
+    .lottieContainer{
+        position: sticky;
+        top: 10px;
+        z-index: 3
+    }
 
     .imgBackgroundScan {
         width: 60%;
