@@ -205,7 +205,8 @@ body {
       background-color: #BEDFC1;
       position: relative;
       padding-top: 70vh;
-      margin-top: 13vh; }
+      margin-top: 13vh;
+      z-index: -3; }
       body main .gamification .GamificationDetailContent {
         max-width: 1080px;
         margin: 120px auto; }
