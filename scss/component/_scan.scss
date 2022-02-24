@@ -5,14 +5,21 @@
     // position: sticky;
     // top: -406px;
     // height: 260vh;
+    .sticky{
+        position: sticky;
+        top: 0;
+        height: 258vh;
+    }
     .lottieContainer{
         position: sticky;
-        height: 137vh;
+        bottom: -732px;
+        height: 2000px;
+        z-index: 999;
 
-        #lottie_scann{
-            position: absolute;
-            bottom: -318px;
-        }
+        // #lottie_scann{
+        //     position: absolute;
+        //     bottom: -318px;
+        // }
     }
 
     .imgBackgroundScan {
