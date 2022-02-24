@@ -8,15 +8,15 @@
     .sticky{
         position: sticky;
         top: 0;
-        height: 258vh;
+        height: 160vh;
         display: flex;
         flex-direction: column;
     }
     .lottieContainer{
         position: sticky;
-        bottom: -732px;
-        height: 2000px;
-        z-index: 999;
+        margin-top: 318px;
+        bottom: -200px;
+        height: 100%;
 
         // #lottie_scann{
         //     position: absolute;

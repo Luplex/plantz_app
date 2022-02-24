@@ -113,7 +113,7 @@ ScrollTrigger.matchMedia({
     //SCANN
 
     gsap.to(".imgBackgroundScan", {
-      scale: "1",
+      scale: "2",
       scrollTrigger: {
         trigger: ".imgBackgroundScan",
         start: "top 15%",
