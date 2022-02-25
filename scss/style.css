@@ -361,10 +361,12 @@ body .button::after {
     display: none !important; } }
 .scanne {
   height: 180vh; }
+  .scanne .lottieContainer {
+    transition: all 1s; }
   .scanne .imgBackgroundScan {
     position: sticky;
     width: 60%;
-    margin: auto;
+    margin: 0 20%;
     transition: all 1s; }
   .scanne .pin-spacer {
     transition: all 1s; }

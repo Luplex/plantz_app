@@ -14,6 +14,7 @@
     //     flex-direction: column;
     // }
     .lottieContainer{
+        transition: all 1s;
         // position: sticky;
         // margin-top: 318px;
         // // bottom: -200px;
@@ -30,7 +31,7 @@
     .imgBackgroundScan {
         position: sticky;
         width: 60%;
-        margin: auto;
+        margin: 0 20%;
         transition: all 1s;
     }
 
