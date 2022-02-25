@@ -6,13 +6,13 @@
     // // top: -406px;
     // // height: 260vh;
     height: 180vh;
-    .sticky{
-        position: sticky;
-        top: 25vh;
-        // height: 180vh;
-        display: flex;
-        flex-direction: column;
-    }
+    // .sticky{
+    //     position: sticky;
+    //     top: 25vh;
+    //     // height: 180vh;
+    //     display: flex;
+    //     flex-direction: column;
+    // }
     .lottieContainer{
         // position: sticky;
         // margin-top: 318px;
@@ -28,6 +28,7 @@
     }
 
     .imgBackgroundScan {
+        position: sticky;
         width: 60%;
         margin: auto;
         transition: all 1s;

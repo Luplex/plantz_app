@@ -361,12 +361,8 @@ body .button::after {
     display: none !important; } }
 .scanne {
   height: 180vh; }
-  .scanne .sticky {
-    position: sticky;
-    top: 25vh;
-    display: flex;
-    flex-direction: column; }
   .scanne .imgBackgroundScan {
+    position: sticky;
     width: 60%;
     margin: auto;
     transition: all 1s; }
