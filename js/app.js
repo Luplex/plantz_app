@@ -131,7 +131,7 @@ ScrollTrigger.matchMedia({
       scrollTrigger: {
         trigger: ".imgBackgroundScan",
         start: "top 15%",
-        end: "bottom 90%",
+        end: "top 90%",
         id: "lottieContainer",
         markers: true,
         scrub: true,
