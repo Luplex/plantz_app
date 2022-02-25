@@ -140,9 +140,11 @@ ScrollTrigger.matchMedia({
     })
 
     SMtl.to(".lottieContainer", {
-      y: -550,
-      duration: 5,
-      delay: 1.5
+      // y: -550,
+      // duration: 5,
+      // delay: 1.5
+
+      scale: "2"
     })
 
     //Apprition Valeur
