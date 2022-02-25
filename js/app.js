@@ -133,7 +133,7 @@ ScrollTrigger.matchMedia({
         start: "top 15%",
         end: "bottom 90%",
         id: "lottieContainer",
-        markers: true,
+        // markers: true,
         scrub: true,
         pinSpacing: false,
       }
