@@ -362,7 +362,9 @@ body .button::after {
 .scanne {
   height: 180vh; }
   .scanne .lottieContainer {
-    transition: all 1s; }
+    transition: all 1s;
+    position: sticky;
+    top: 20vh; }
   .scanne .imgBackgroundScan {
     position: sticky;
     top: 20vh;
