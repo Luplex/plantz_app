@@ -140,8 +140,7 @@ ScrollTrigger.matchMedia({
     })
 
     SMtl.to(".lottieContainer", {
-      x: 265,
-      y: 50,
+      y: 250,
       duration: 5,
       delay: 1.5
     })
