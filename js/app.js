@@ -126,6 +126,25 @@ ScrollTrigger.matchMedia({
 
     });
 
+    let SMtl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".lottieContainer",
+        start: "top 15%",
+        end: "center 90%",
+        id: "lottieContainer",
+        markers: true,
+        scrub: true,
+        pinSpacing: false,
+      }
+    })
+
+    SMtl.to(".lottieContainer", {
+      x: 265,
+      y: 50,
+      duration: 5,
+      delay: 1.5
+    })
+
     //Apprition Valeur
 
     let Vtl = gsap.timeline({
