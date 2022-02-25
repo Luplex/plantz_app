@@ -366,11 +366,6 @@ body .button::after {
     top: 25vh;
     display: flex;
     flex-direction: column; }
-  .scanne .lottieContainer {
-    position: sticky;
-    margin-top: 318px;
-    bottom: -222px;
-    height: 100%; }
   .scanne .imgBackgroundScan {
     width: 60%;
     margin: auto;
