@@ -359,32 +359,33 @@ body .button::after {
 @media only screen and (max-width: 576px) {
   .content_video {
     display: none !important; } }
-.scanne .sticky {
-  position: sticky;
-  top: 0;
-  height: 180vh;
-  display: flex;
-  flex-direction: column; }
-.scanne .lottieContainer {
-  position: sticky;
-  margin-top: 318px;
-  bottom: -222px;
-  height: 100%; }
-.scanne .imgBackgroundScan {
-  width: 60%;
-  margin: auto;
-  transition: all 1s; }
-.scanne .pin-spacer {
-  transition: all 1s; }
-.scanne .ScrolledImgMainScan {
-  position: sticky !important;
-  transition: all 1s;
-  top: 0 !important;
-  z-index: 5; }
-.scanne .imgMainScan2 {
-  display: none; }
-.scanne .png img {
-  width: 100%; }
+.scanne {
+  height: 180vh; }
+  .scanne .sticky {
+    position: sticky;
+    top: 25vh;
+    display: flex;
+    flex-direction: column; }
+  .scanne .lottieContainer {
+    position: sticky;
+    margin-top: 318px;
+    bottom: -222px;
+    height: 100%; }
+  .scanne .imgBackgroundScan {
+    width: 60%;
+    margin: auto;
+    transition: all 1s; }
+  .scanne .pin-spacer {
+    transition: all 1s; }
+  .scanne .ScrolledImgMainScan {
+    position: sticky !important;
+    transition: all 1s;
+    top: 0 !important;
+    z-index: 5; }
+  .scanne .imgMainScan2 {
+    display: none; }
+  .scanne .png img {
+    width: 100%; }
 
 @media only screen and (max-width: 1400px) {
   .scanne {
