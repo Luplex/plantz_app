@@ -130,7 +130,7 @@ ScrollTrigger.matchMedia({
     let SMtl = gsap.timeline({
       scrollTrigger: {
         trigger: ".imgBackgroundScan",
-        start: "center 15%",
+        start: "top 15%",
         end: "bottom 90%",
         id: "lottieContainer",
         markers: true,
