@@ -144,7 +144,7 @@ ScrollTrigger.matchMedia({
       // duration: 5,
       // delay: 1.5
 
-      scale: "2"
+      scale: "1.2"
     })
 
     //Apprition Valeur
