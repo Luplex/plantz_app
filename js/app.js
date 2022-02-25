@@ -119,7 +119,7 @@ ScrollTrigger.matchMedia({
         start: "top 15%",
         end: "top 90%",
         id: "background",
-        // markers: true,
+        markers: true,
         scrub: true,
         pinSpacing: false,
 
