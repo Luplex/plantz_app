@@ -384,9 +384,10 @@ body .button::after {
   .scanne .png img {
     width: 100%; }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .scanne {
-    margin-top: 60vh; } }
+    margin-top: 60vh;
+    height: 250vh; } }
 @media only screen and (max-width: 1150px) {
   .scanne .imgMainScan {
     bottom: -10vh !important; } }
