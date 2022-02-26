@@ -359,7 +359,7 @@ body .button::after {
   .content_video {
     display: none !important; } }
 .scanne {
-  height: 250vh; }
+  height: 300vh; }
   .scanne .lottieContainer {
     transition: all 1s;
     position: sticky;
