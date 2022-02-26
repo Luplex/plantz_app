@@ -205,6 +205,7 @@ body {
       background-color: #BEDFC1;
       position: relative;
       padding-top: 70vh;
+      margin-top: -237px;
       z-index: -3; }
       body main .gamification .GamificationDetailContent {
         max-width: 1080px;
@@ -367,7 +368,7 @@ body .button::after {
   .scanne .imgBackgroundScan {
     position: sticky;
     top: 20vh;
-    padding-bottom: 15vh;
+    padding-bottom: 33vh;
     width: 60%;
     margin: 0 20%;
     transition: all 1s;
