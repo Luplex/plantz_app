@@ -366,7 +366,7 @@ body .button::after {
     top: 20vh; }
   .scanne .imgBackgroundScan {
     position: sticky;
-    top: 20vh;
+    top: 0vh;
     width: 60%;
     margin: 0 20%;
     transition: all 1s;
