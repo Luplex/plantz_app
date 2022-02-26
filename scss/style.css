@@ -363,10 +363,10 @@ body .button::after {
   .scanne .lottieContainer {
     transition: all 1s;
     position: sticky;
-    top: 10vh; }
+    top: 3vh; }
   .scanne .imgBackgroundScan {
     position: sticky;
-    top: 3vh;
+    top: 20vh;
     padding-bottom: 15vh;
     width: 60%;
     margin: 0 20%;
