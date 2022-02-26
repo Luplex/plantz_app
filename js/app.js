@@ -127,25 +127,25 @@ ScrollTrigger.matchMedia({
 
     });
 
-    let SMtl = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".imgBackgroundScan",
-        start: "top 15%",
-        end: "top 90%",
-        id: "lottieContainer",
-        markers: true,
-        scrub: true,
-        pinSpacing: false,
-      }
-    })
+    // let SMtl = gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: ".imgBackgroundScan",
+    //     start: "top 15%",
+    //     end: "top 90%",
+    //     id: "lottieContainer",
+    //     markers: true,
+    //     scrub: true,
+    //     pinSpacing: false,
+    //   }
+    // })
 
-    SMtl.to(".lottieContainer", {
-      // y: -550,
-      // duration: 5,
-      // delay: 1.5
+    // SMtl.to(".lottieContainer", {
+    //   // y: -550,
+    //   // duration: 5,
+    //   // delay: 1.5
 
-      scale: "1.2"
-    })
+    //   scale: "1.2"
+    // })
 
     //Apprition Valeur
 
